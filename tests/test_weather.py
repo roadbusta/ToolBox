@@ -6,4 +6,4 @@ def test_find_woeid():
 
 #Test that the weather_forecast returned is a string
 def test_weather_forecast():
-    assert type(weather_forecast(1103816)) is int
+    assert type(weather_forecast(1103816)) is str
